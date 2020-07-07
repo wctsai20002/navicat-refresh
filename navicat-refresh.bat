@@ -1,0 +1,1 @@
+reg delete "HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration15XCT" /va
