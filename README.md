@@ -1,7 +1,7 @@
 # navicat-refresh
 
 ### Version
-- Navicat Premium 15
+- Navicat Premium 15 (Windows)
 
 ### Delete Navicat Registry File
 - HKEY_CURRENT_USER\Software\PremiumSoft\NavicatPremium\Registration15XCT
