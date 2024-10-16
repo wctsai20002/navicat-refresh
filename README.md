@@ -3,6 +3,12 @@
 ### Version
 - Navicat Premium 17, 16, and 15 (Windows)
 
+## Introducing Navicat Premium Lite
+
+If you're researching this project, you might be interested to know that Navicat has launched a new product called **Navicat Premium Lite**. It's free and can be used for commercial purposes. The only thing you need to do is register an account. For details on usage and licensing, please refer to the final EULA provided by Navicat.
+
+You can learn more about Navicat Premium Lite [here](https://www.navicat.com/en/products/navicat-premium-lite) and download it [here](https://www.navicat.com/en/download/navicat-premium-lite).
+
 ## Script Functionality
 
 ### Delete Navicat Registry Entries
@@ -29,42 +35,8 @@ The script will delete the following registry entries:
 1. Download the script.
 2. Run the script as an administrator to ensure it has the necessary permissions to delete the registry entries.
 
-### Automating the Script with Windows Task Scheduler
-
-You can automate the execution of this script by using Windows Task Scheduler, which allows you to schedule the script to run at regular intervals without any manual intervention.
-
-#### Setting Up a Weekly Task in Windows Task Scheduler
-
-1. **Open Task Scheduler:**
-    - Press `Win + R`, type `taskschd.msc`, and press Enter to open Task Scheduler.
-
-2. **Create a Basic Task:**
-    - Click on **Create Basic Task** in the Actions pane on the right.
-    - Name the task (e.g., "Navicat Refresh").
-
-3. **Trigger Setup:**
-    - Choose **Weekly**.
-    - Choose a start date and time, set it to recur every 1 week.
-
-4. **Action Setup:**
-    - Select **Start a program** and click **Next**.
-    - In the **Program/script** field, click **Browse** and navigate to the location of the `navicat-refresh.bat` file.
-
-5. **Confirm and Finish:**
-    - Review the settings to ensure everything is correct.
-    - Click **Finish** to create the task.
-
-#### Deleting the Task
-
-If you no longer need the task, you can easily delete it:
-
-1. **Open Task Scheduler:**
-    - Press `Win + R`, type `taskschd.msc`, and press Enter to open Task Scheduler.
-
-2. **Find and Delete the Task:**
-    - In the left pane, click on **Task Scheduler Library**.
-    - Find the task you created (e.g., "Navicat Refresh").
-    - Right-click the task and select **Delete**.
-
 ## Special Thanks
 Sincere appreciation goes to everyone in the community who contributed to improving this script, particularly those involved in [Issue 4](https://github.com/wctsai20002/navicat-refresh/issues/4). Your efforts have significantly enhanced the script's efficiency and expanded its compatibility to include Navicat Premium 17. Thank you for your ongoing support!
+
+## Disclaimer
+Please review the [DISCLAIMER](DISCLAIMER.md) before using this script. The script is provided for educational purposes only, and misuse may violate software licenses or laws.
